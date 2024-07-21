@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Nhập</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 70%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container{
+        background-color: bisque;
+        max-width: 50rem;
+        margin: 4rem auto;
+        border-radius: 1rem;
+        padding: 2.4rem 1.8rem;
+        text-align: center;
+    }
+    h1{
+        margin-bottom: 2.4rem;
+    }
+    .input-box input{
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        width: 70%;
+        padding: 1rem;
+        font-size: 1.4rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 0.6rem auto;
+    }
+    .btn{
+        background-color: #F76808;
+        border: 1px solid white;
+        width: 70%;
+        padding: 1rem;
+        font-size: 1.4rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 0.6rem auto;
+    }
+    p{
+        display: inline-block;
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+    .b{
+        text-decoration: none;
+        background-color: white;
+        font-size: 1.2rem;
+        color: black;
+        display: inline-block;
+    }
+</style>
+<div class="container">
+    <form action="">
+        <h1>Đăng Nhập</h1>
+        <p>Hãy Điền các thông tin dưới đây:</p>
+        <div class="input-box">
+            <input type="text" placeholder="Email" required >
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Mật Khẩu" required>
+        </div>
+        <button type="sumbit" class="btn">Đăng nhâp</button>
+        <p>Hoặc bạn có thể đăng nhập bằng:</p><br>
+        <a href="#" class="btn b" > Đăng nhập bằng facebook</a><br>
+        <a href="#" class="btn b"> Đăng nhập bằng google</a>
+    </form>
+</div>
+</body> 
+</html>
